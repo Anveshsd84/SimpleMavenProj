@@ -10,11 +10,10 @@ public class TestPavkage {
 	@Test
 	public void openBrowser(){
 		String current = System.getProperty("user.dir");
-		//DesiredCapabilities capability = DesiredCapabilities.chrome();
 		
 		
-		
-		System.setProperty("webdriver.chrome.driver", current+"/SimpleMavenProj/chromedriver");
+	//	System.setProperty("webdriver.chrome.driver", current+"/SimpleMavenProj/chromedriver");
+		System.setProperty("webdriver.chrome.driver", current+"/SimpleMavenProj/chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 
      
