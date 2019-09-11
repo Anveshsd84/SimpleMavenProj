@@ -14,7 +14,7 @@ public class TestPavkage {
 		
 		
 		
-		System.setProperty("webdriver.chrome.driver", current+"\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", current+"\SimpleMavenProj\chromedriver");
 		WebDriver driver=new ChromeDriver();
 
      
