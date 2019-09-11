@@ -12,7 +12,9 @@ public class TestPavkage {
 		DesiredCapabilities capability = DesiredCapabilities.chrome();
 		
 		WebDriver driver=new ChromeDriver();
-		System.setProperty("webdriver.chrome.driver", "https://github.com/Anveshsd84/SimpleMavenProj/blob/master/chromedriver.exe");
+		
+		String current = System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver", current+"SimpleMavenProj\\chromedriver.exe");
 
       //  driver = new RemoteWebDriver(new URL("http://192.168.4.52:4444/wd/hub"), capability);
 	//	
