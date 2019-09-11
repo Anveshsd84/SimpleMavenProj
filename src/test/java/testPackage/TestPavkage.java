@@ -17,8 +17,8 @@ public class TestPavkage {
 		System.setProperty("webdriver.chrome.driver", current+"\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 
-      //  driver = new RemoteWebDriver(new URL("http://192.168.4.52:4444/wd/hub"), capability);
-	//	
+     
+		
 		driver.get("https://www.redbus.in");
 		System.out.println("Title is "+driver.getTitle());
 	}
